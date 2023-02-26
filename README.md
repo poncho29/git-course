@@ -69,3 +69,20 @@ node_modules
 Para clonar un repositorio debemor ir al repositorio en GitHub que queremos clonar y en el boton verde que aparece le damos click y copiamos el link quese genera ya sea por https o ssh luego en la terminal ejecutamo el siguiente código.
 
 1. **git clone https://github.com/usuario/repositorio.git:**
+
+## 10. Manejo de ramas
+
+Las ramas permiten separar funcionalidad nuevas sin que afecten la rama principal y cuando se este seguro de que esta bien se pueden unir a la rama principal.
+
+1. **git branch nombre-rama:** Crea una rama.
+2. **git checkout nombre-rama:** Cambiar a una rama.
+3. **git checkout -b rama:** Crear una rama y cambiarse a ella.
+4. **git branch -d nombre-rama:** Eliminar un rama.
+5. **git push origin --delete nombre-rama:** Eliminar un rama remota.
+6. **git branch -D nombre-rama:** Elimar rama de manera forzada.
+7. **git branch:** Listar todas las ramas del repositorio.
+8. **git branch --no-merged:** Listar ramas no fusionadas a la rama actual.
+9. **git branch --merged:** Listar ramas fusionadas a la rama actual.
+Rebasar una rama:
+10. **git checkout rama-secundaria:** Cambio a la rama a rebasar
+11. **git rebase rama-principal:** Sa hace referencia a la rama principal a rebasar.
