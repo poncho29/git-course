@@ -47,19 +47,25 @@ Curso de JonMircha https://www.youtube.com/watch?v=suzMNqDQiyU&t=2193s
 
 El archivo **.gitignore** registra todo lo que no queremos que se versione en el repositorio, se puede definir de manera manual o usando herramientas como [gitignore.io](https://www.toptal.com/developers/gitignore).
 
-### Definir archivos a ignorar
+#### Definir archivos a ignorar
 ```
-  // ignorando un archivo
-  archivo.text
+// ignorando un archivo
+archivo.text
 
-  //ignorando una carpeta
-  node_modules
+//ignorando una carpeta
+node_modules
 
-  // ignorar con expersiones regulares
-  *.log
+// ignorar con expersiones regulares
+*.log
 
-  // Hacer un excepción
-  !production.log
+// Hacer un excepción
+!production.log
 
-  // Existen muchas más posibilidades.
+// Existen muchas más posibilidades.
 ```
+
+## 9. Clonar repositorios
+
+Para clonar un repositorio debemor ir al repositorio en GitHub que queremos clonar y en el boton verde que aparece le damos click y copiamos el link quese genera ya sea por https o ssh luego en la terminal ejecutamo el siguiente código.
+
+1. **git clone https://github.com/usuario/repositorio.git:**
