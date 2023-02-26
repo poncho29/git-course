@@ -83,6 +83,6 @@ Las ramas permiten separar funcionalidad nuevas sin que afecten la rama principa
 7. **git branch:** Listar todas las ramas del repositorio.
 8. **git branch --no-merged:** Listar ramas no fusionadas a la rama actual.
 9. **git branch --merged:** Listar ramas fusionadas a la rama actual.
-Rebasar una rama:
-10. **git checkout rama-secundaria:** Cambio a la rama a rebasar
-11. **git rebase rama-principal:** Sa hace referencia a la rama principal a rebasar.
+10. Rebasar una rama:
+ - **git checkout rama-secundaria:** Cambio a la rama a rebasar
+ - **git rebase rama-principal:** Sa hace referencia a la rama principal a rebasar.
