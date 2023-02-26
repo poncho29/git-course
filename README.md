@@ -48,7 +48,7 @@ Curso de JonMircha https://www.youtube.com/watch?v=suzMNqDQiyU&t=2193s
 El archivo **.gitignore** registra todo lo que no queremos que se versione en el repositorio, se puede definir de manera manual o usando herramientas como [gitignore.io](https://www.toptal.com/developers/gitignore).
 
 ### Definir archivos a ignorar
-``
+```
   // ignorando un archivo
   archivo.text
 
@@ -62,4 +62,4 @@ El archivo **.gitignore** registra todo lo que no queremos que se versione en el
   !production.log
 
   // Existen muchas más posibilidades.
-``
+```
