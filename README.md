@@ -2,6 +2,23 @@
 
 Curso de JonMircha https://www.youtube.com/watch?v=suzMNqDQiyU&t=2193s
 
+## Configuración inicial de Git por primera vez
+1. **git --version:** muestra la versión de git instalada
+2. **git config --global user.name "Tú nombre":** Define el nombre de usuario
+3. **git config --global user.email "Tú correo":** Define el correo que utilizará git, de preferencia que se el correo con el que se creo la cuenta de GitHub.
+
+## Ayuda
+1. **git config -h:** Muestra las opciones de la configuración en la terminal
+2. **git help config:** Muestra todas las opciones de la configuración en el navegador
+
+## Inicializar un repostorio local versionado por Git
+
+1. **mkdir "nombre-carpeta":** Crea una nueva carpeta con el nombre dado, no es comando de Git, es un comando de terminal.
+2. **cd "nombre-carpeta:**: Entrar a la carpeta creado, no es comando de Git, es un comando de terminal.
+3. **touch README.md:** Crea el archivo README.md el permite definir instruciones u opciones acerca del proyecto, no es comando de Git, es un comando de terminal.
+4. **touch .gitignore:** Crear el archivo .gitignore que ignora carpetas, archivos que no queremos que Git versione, no es comando de Git, es un comando de terminal.
+5. **git init:**: Inicializa el repositorio de Git.
+
 ## Flujo basico
 
 1. Working Directory (modified).
